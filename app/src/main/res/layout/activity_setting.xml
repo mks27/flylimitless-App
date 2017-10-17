@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flylimitless.flylimitless.settingActivity">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/wat"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="-32dp">
+
+        <TextView
+            android:id="@+id/viewprofile"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Edit Your Profile"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:background="#ff3399"
+            />
+
+        <TextView
+            android:id="@+id/viewname"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="Name:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewprofile"
+            android:layout_marginTop="23dp"
+            />
+
+        <EditText
+            android:id="@+id/textname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="enter your name"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/viewprofile"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/viewemail"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="Email:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewname"
+            android:layout_marginTop="23dp"
+            />
+
+        <EditText
+            android:id="@+id/textemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="enter your email"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/viewname"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/viewmobile"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="phone:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewemail"
+            android:layout_marginTop="23dp"
+            />
+
+        <EditText
+            android:id="@+id/textmobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="enter your mobile no."
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/viewemail"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/viewaadhar"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="Aadhar:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewmobile"
+            android:layout_marginTop="23dp"
+            />
+
+        <EditText
+            android:id="@+id/textaadhar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="enter your aadhar no."
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/viewmobile"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/savebtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="SAVE"
+            android:layout_marginLeft="130dp"
+            android:layout_below="@+id/textaadhar"
+            android:layout_marginTop="60dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

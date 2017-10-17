@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flylimitless.flylimitless.afterbooknowActivity">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/wat"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="-32dp">
+
+        <TextView
+            android:id="@+id/viewdetails"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Booking Details"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:background="#ff3399"
+            />
+
+        <TextView
+            android:id="@+id/viewfno"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="Flight No.:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewdetails"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewno"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:background="#fdf5e6"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/viewdetails"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewfrom"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="From:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewfno"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewsource"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="70dp"
+            android:layout_below="@+id/viewfno"
+            android:background="#fdf5e6"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewto"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="To:"
+            android:textColor="#339966"
+            android:layout_marginLeft="180dp"
+            android:layout_below="@+id/viewfno"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewdest"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="210dp"
+            android:layout_below="@+id/viewfno"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#fdf5e6"
+            />
+
+        <TextView
+            android:id="@+id/dept"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="Departure:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewdest"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewdept"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:background="#fdf5e6"
+            android:layout_marginLeft="110dp"
+            android:layout_below="@+id/viewdest"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/arri"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="Arrival:"
+            android:textColor="#339966"
+            android:layout_marginLeft="200dp"
+            android:layout_below="@+id/viewdest"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewarri"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:background="#fdf5e6"
+            android:layout_marginLeft="270dp"
+            android:layout_below="@+id/viewdest"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="Date of Flight:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewdept"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewdate"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:background="#fdf5e6"
+            android:layout_marginLeft="140dp"
+            android:layout_below="@+id/viewdept"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="Price of Flight:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewdate"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewprice"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:background="#fdf5e6"
+            android:layout_marginLeft="145dp"
+            android:layout_below="@+id/viewdate"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/adult"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="Number of Adult:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewprice"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewadult"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:background="#fdf5e6"
+            android:layout_marginLeft="175dp"
+            android:layout_below="@+id/viewprice"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/child"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="Number of Child:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewadult"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewchild"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:background="#fdf5e6"
+            android:layout_marginLeft="175dp"
+            android:layout_below="@+id/viewadult"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/infant"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="Number of Infant:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewchild"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewinfant"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:background="#fdf5e6"
+            android:layout_marginLeft="175dp"
+            android:layout_below="@+id/viewchild"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="Total Price:"
+            android:textColor="#339966"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewinfant"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/viewtotal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:background="#fdf5e6"
+            android:layout_marginLeft="120dp"
+            android:layout_below="@+id/viewinfant"
+            android:layout_marginTop="5dp"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/viewtotal"
+            />
+
+        <TextView
+            android:id="@+id/term"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:text="accepts all terms and conditions"
+            android:layout_marginLeft="50dp"
+            android:layout_below="@+id/viewtotal"
+            android:layout_marginTop="5dp"
+            />
+
+
+         <Button
+             android:id="@+id/confirmbtn"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:text="CONFIRM"
+             android:layout_marginLeft="3dp"
+             android:layout_below="@+id/term"
+             android:layout_marginTop="100dp"/>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+

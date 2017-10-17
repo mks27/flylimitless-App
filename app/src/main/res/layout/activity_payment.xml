@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flylimitless.flylimitless.paymentActivity"
+    android:orientation="vertical"
+    android:background="@drawable/wat">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:text="Pay Money to Successfully Book Your Flights"
+        android:fontFamily="casual"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Card Number"
+            android:textColor="#0000cd"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:fontFamily="casual"
+            />
+
+        <EditText
+            android:id="@+id/aaaa"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#FF000000"
+            android:background="#fdf5e6"
+            android:alpha="0.5"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="vertical"
+        android:layout_marginTop="-25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Expiry Date"
+            android:textColor="#0000cd"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:fontFamily="casual"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:id="@+id/sp_month"
+                android:layout_width="140dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:hint="month"
+                android:textColor="#FF000000"
+                android:background="#fdf5e6"
+                android:alpha="0.5"/>
+
+            <Spinner
+                android:id="@+id/sp_year"
+                android:layout_width="140dp"
+                android:layout_height="25dp"
+                android:hint="year"
+                android:layout_marginLeft="80dp"
+                android:textColor="#FF000000"
+                android:background="#fdf5e6"
+                android:alpha="0.5"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#0000cd"
+        android:text="Enter Cvv Number"
+        android:textAllCaps="false"
+        android:fontFamily="casual"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:background="#fdf5e6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:alpha="0.5"
+        android:fontFamily="casual"
+        android:textSize="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#f0f0f0"
+        android:background="#00008B"
+        android:text="Make Payment"
+        android:id="@+id/pay_btn"
+        android:textAllCaps="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="150dp"
+        android:alpha="0.6"/>
+
+</LinearLayout>

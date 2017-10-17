@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flylimitless.flylimitless.bookedticketsActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/viewbooked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Booked Tickets"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="125dp"
+            android:textColor="#993366"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:orientation="vertical"
+        android:background="#fdf5e6">
+
+        <TextView
+            android:id="@+id/viewsource1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Mumbai"
+            android:textSize="25sp"
+            android:textColor="#339933"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/book1"
+            android:textSize="25sp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="170dp" />
+
+        <TextView
+            android:id="@+id/viewdest1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Delhi"
+            android:textColor="#339933"
+            android:textSize="25sp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="260dp" />
+
+
+        <TextView
+            android:id="@+id/viewdate1"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:text="10/09/2017"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:id="@+id/detailsbtn1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="More Details"
+            android:textSize="20sp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="10dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        android:background="#fdf5e6">
+
+        <TextView
+            android:id="@+id/viewsource2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Mumbai"
+            android:textSize="25sp"
+            android:textColor="#339933"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/book1"
+            android:textSize="25sp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="170dp" />
+
+        <TextView
+            android:id="@+id/viewdest2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Delhi"
+            android:textColor="#339933"
+            android:textSize="25sp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="260dp" />
+
+
+        <TextView
+            android:id="@+id/viewdate2"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:text="10/09/2017"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:id="@+id/detailsbtn2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="More Details"
+            android:textSize="20sp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        android:background="#fdf5e6">
+
+        <TextView
+            android:id="@+id/viewsource3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Mumbai"
+            android:textSize="25sp"
+            android:textColor="#339933"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/book1"
+            android:textSize="25sp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="170dp" />
+
+        <TextView
+            android:id="@+id/viewdest3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Delhi"
+            android:textColor="#339933"
+            android:textSize="25sp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="260dp" />
+
+
+        <TextView
+            android:id="@+id/viewdate3"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:text="10/09/2017"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:id="@+id/detailsbtn3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="More Details"
+            android:textSize="20sp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        android:background="#fdf5e6">
+
+        <TextView
+            android:id="@+id/viewsource4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Mumbai"
+            android:textSize="25sp"
+            android:textColor="#339933"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/book1"
+            android:textSize="25sp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="170dp" />
+
+        <TextView
+            android:id="@+id/viewdest4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Delhi"
+            android:textColor="#339933"
+            android:textSize="25sp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="260dp" />
+
+
+        <TextView
+            android:id="@+id/viewdate4"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:text="10/09/2017"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:id="@+id/detailsbtn4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="More Details"
+            android:textSize="20sp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        android:background="#fdf5e6">
+
+        <TextView
+            android:id="@+id/viewsource5"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Mumbai"
+            android:textSize="25sp"
+            android:textColor="#339933"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/book1"
+            android:textSize="25sp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="170dp" />
+
+        <TextView
+            android:id="@+id/viewdest5"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Delhi"
+            android:textColor="#339933"
+            android:textSize="25sp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="260dp" />
+
+
+        <TextView
+            android:id="@+id/viewdate5"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:text="10/09/2017"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:id="@+id/detailsbtn5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="More Details"
+            android:textSize="20sp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

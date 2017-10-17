@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flylimitless.flylimitless.findbookingActivity"
+
+    android:orientation="vertical"
+    android:background="@drawable/wat">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp">
+        <Button
+            android:layout_width="50dp"
+            android:id="@+id/btHome"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:textColor="#f0f0f0"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="270dp"
+            android:text="home"
+            android:textAllCaps="false"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textColor="#00008B"
+            android:text="Enter your details to retrive your booking"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textColor="#00008B"
+            android:text="\Booking Reference"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Booking Reference"
+            android:fontFamily="casual"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textColor="#00008B"
+            android:text="Email Address"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:fontFamily="casual"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#f0f0f0"
+            android:background="#00008B"
+            android:text="Fetch Booking"
+            android:textAllCaps="false"
+            android:layout_marginTop="240dp"
+            android:alpha="0.6"/>
+    </LinearLayout>
+
+
+</LinearLayout>

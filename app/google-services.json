@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "995535160928",
+    "firebase_url": "https://myflight-4434f.firebaseio.com",
+    "project_id": "myflight-4434f",
+    "storage_bucket": "myflight-4434f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995535160928:android:8c65f71bdde44f08",
+        "android_client_info": {
+          "package_name": "com.flylimitless.flylimitless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995535160928-7umo78pb10i75dno3onp01nmrttb1se1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flylimitless.flylimitless",
+            "certificate_hash": "48f58bf7c9ab19d03a542f68e5e0250f77642247"
+          }
+        },
+        {
+          "client_id": "995535160928-untocus5ondp0n6s1oeffi8tnngbim2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNSS0zYenbsck2An3OIT-Olnik2KRF1ZE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995535160928-untocus5ondp0n6s1oeffi8tnngbim2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
